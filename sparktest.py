@@ -1,2 +1,8 @@
+import pandas as pd
+import os
+
 def sparktest():
-    pass
+    df = pd.read_csv("data/data.csv")
+    print(df.columns)
+
+sparktest()
